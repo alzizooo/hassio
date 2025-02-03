@@ -1,0 +1,14 @@
+name: Face Recognition
+version: "1.0"
+slug: face_recognition
+description: Detect faces from an IP camera and send data to Home Assistant via MQTT
+arch:
+  - amd64
+  - armhf
+  - armv7
+  - aarch64
+startup: services
+boot: auto
+options: {}
+schema: {}
+init: false
